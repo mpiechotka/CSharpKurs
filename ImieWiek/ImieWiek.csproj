@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6501C00A-5DAB-47D4-BA61-58BFAA09D94C}</ProjectGuid>
+    <ProjectGuid>{08AF93BB-CA23-450C-83A9-34D062E98107}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Hello</RootNamespace>
-    <AssemblyName>Hello</AssemblyName>
+    <RootNamespace>ImieWiek</RootNamespace>
+    <AssemblyName>ImieWiek</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,7 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="ImieWiek.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

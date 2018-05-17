@@ -5,15 +5,15 @@ namespace Hello
 {
     class Program
     {
-        static void MainProgram(string[] args)
+        static void Main(string[] args)
         {
-            //string name = args[0];
-            //Console.WriteLine("Witaj, " + name);
+            string name = args[0];
+            Console.WriteLine("Witaj, " + name);
 
-            foreach (var item in args)
-            {
-                Console.WriteLine("witaj, " + item);
-            }
+            //foreach (var item in args)
+            //{
+            //    Console.WriteLine("witaj, " + item);
+            //}
         }
     }
 }

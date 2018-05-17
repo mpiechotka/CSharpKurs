@@ -1,15 +1,15 @@
 ﻿using System;
 
 
-namespace Hello
+namespace ImieWiek
 {
-    class Program1
+    class ImieWiek
     {
         static void Main(string[] args)
         {
             ValueTypes();
 
-            for (; ;)
+            for (; ; )
             {
                 Greeting();
                 Age();
@@ -66,7 +66,7 @@ namespace Hello
                 Console.WriteLine("Mogę Ci zaoferować sok");
             }
         }
-        
+
         /// <summary>
         /// Wypisuje powitanie użytkownika
         /// </summary>
